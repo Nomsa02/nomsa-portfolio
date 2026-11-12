@@ -4,8 +4,8 @@ export const profile = {
   name: 'Nomsa Malaba',
   firstName: 'Nomsa',
   location: 'Johannesburg, South Africa',
-  email: 'Nomsamalaba7@gmail.com', 
-  github: 'https://github.com/Nomsa02', 
+  email: 'Nomsamalaba7@gmail.com',
+  github: 'https://github.com/Nomsa02',
   linkedin: 'www.linkedin.com/in/nomsa-malaba-338226280',
   cvPath: 'Nomsa_Malaba_CV.pdf',
 }

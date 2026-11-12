@@ -114,7 +114,7 @@ function App() {
               of Cape Town. I build practical applications,
               work with data, and enjoy solving problems
               through technology.
-            </p>            
+            </p>
             <div className="hero-actions"><a className="button button-primary" href="#work">Explore my work <Arrow /></a><a className="button button-text" href="#about">A little about me <Arrow diagonal /></a></div>
             <div className="hero-footnote"><span className="tiny-flower">✳</span><span>Based in {profile.location}</span></div>
           </div>
