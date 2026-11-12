@@ -45,10 +45,10 @@ function ProjectVisual({ type }: { type: Project['visual'] }) {
   return (
     <div className="visual analytics-visual" aria-hidden="true">
       <div className="analytics-sheet">
-        <div className="analytics-overline">DATA / INSIGHTS</div>
-        <div className="analytics-title">Find the story.</div>
+        <div className="analytics-overline">CAREER / EXPLORATION</div>
+        <div className="analytics-title">Explore your path.</div>
         <div className="analytics-chart"><span style={{ height: '42%' }}/><span style={{ height: '63%' }}/><span style={{ height: '51%' }}/><span style={{ height: '78%' }}/><span style={{ height: '91%' }}/><span style={{ height: '69%' }}/><span style={{ height: '100%' }}/></div>
-        <div className="analytics-bottom"><div><small>Explore patterns</small><strong>01 / Discover</strong></div><div className="analytics-donut"/></div>
+        <div className="analytics-bottom"><div><small>Explore possibilities</small><strong>01 / Discover</strong></div><div className="analytics-donut"/></div>
       </div>
       <span className="preview-stamp">PLANNED PROJECT</span>
     </div>
@@ -82,8 +82,8 @@ function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   const closeMenu = () => setMenuOpen(false)
   const navigation = [
-    { text: 'Work', href: '#work' },
     { text: 'About', href: '#about' },
+    { text: 'Work', href: '#work' },
     { text: 'Experience', href: '#experience' },
     { text: 'Contact', href: '#contact' },
   ]
@@ -137,7 +137,6 @@ function App() {
 
         <section className="section experience-section container" id="experience"><div className="section-top"><div><div className="section-kicker">03 / BACKGROUND</div><h2>Where I've <em>been.</em></h2></div></div><div className="experience-list">
           <div className="experience-row"><span>2026 — PRESENT</span><div><h3>Software Development Internship</h3><p>Building and testing business application features, including user interfaces, workflows, permissions and reporting.</p></div><span className="experience-label">DEVELOPMENT</span></div>
-          <div className="experience-row"><span>2023 — 2025</span><div><h3>Healthcare Support</h3><p>Hands-on experience in care environments — strengthening communication, attention to detail and a people-first approach.</p></div><span className="experience-label">PROFESSIONAL EXPERIENCE</span></div>
           <div className="experience-row"><span>EDUCATION</span><div><h3>University of Cape Town</h3><p>BSc in Applied Statistics and Psychology.</p></div><span className="experience-label">ACADEMIC FOUNDATION</span></div>
         </div></section>
 
